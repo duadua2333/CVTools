@@ -3,7 +3,7 @@ import os
 
 
 def text_reader():
-    with open('C:\\Users\\19104\\内窥镜Paper\\OBRDataset\\video1_annot.txt', 'r') as f:
+    with open('xxx', 'r') as f:
         rectangle_info = []
         rectangle_info_row = f.readlines()
         for i in range(len(rectangle_info_row)):
@@ -14,7 +14,7 @@ def text_reader():
 
 
 def img_marker(temp):
-    path = 'video1'
+    path = 'xxx'
     img_name_list = os.listdir(path)
     for i in range(len(img_name_list)):
         img_name = 'video1/' + img_name_list[i]
